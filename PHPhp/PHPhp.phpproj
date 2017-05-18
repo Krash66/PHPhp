@@ -1,0 +1,590 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Local|PHP 5.6"
+    {
+    }
+    "Staging|PHP 5.6"
+    {
+    }
+    "Production|PHP 5.6"
+    {
+    }
+}
+"Files"
+{
+    "AboutUs.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "adflow.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcombo.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcombo.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcommon.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_extra.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_group.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_whp.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\bg_selection.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\blank.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_black.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_blue.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_skyblue.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_terrace.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_web.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_skyblue.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_terrace.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_web.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\form_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\grid_config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\grid_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\keygrid_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\options_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\scheduler_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\strategy.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\tools.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\tree_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treedatagroup_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treedatamultitable_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegrid_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegridgroup_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegridmultitable_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegroup_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treemultitable_connector.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\update.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\xss_filter.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor_debug.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor_deprecated.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\live_updates.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\offline.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\proxy.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxcommon.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxeditor.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxeditor.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\dhtmlxcommon.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\dhtmlxform.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs\\dhxform_dhx_skyblue"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs\\dhxform_dhx_skyblue\\dhxform_btns.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs\\dhxform_dhx_skyblue\\dhxform_chbxrd.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs\\dhxform_dhx_skyblue\\dhxform_upload_buttons.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs\\dhxform_dhx_skyblue\\dhxform_upload_uploading.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\skins\\dhtmlxform_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxcommon.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxcontainer.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayout.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayout.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayoutCompressed.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_bg.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_bg_sb.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_btns.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_collapsedhor.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_collapsedhor2.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_collapsedver.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_cpanel_btn_dock.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_cpanel_btn_undock.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_drag_hor.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_drag_ver.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_progress.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_progress_global.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase\\dhtmlxmessage.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase\\skins\\dhtmlxmessage_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "favicon.ico"
+    {
+    "ProjRelPath" = "T"
+    }
+    "favicon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "favicon16x16.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "fileDwnld.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VB1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VB2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBAddFlow1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBAddFlow2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBdml.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBftp.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBhelp.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBxml2dtd.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\VBxmlFunc.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\Web1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\Web2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\Web3.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "indexhome.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "login.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "php\\login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "php\\register.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "php\\user.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "reg.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume.doc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files\\colorschememapping.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files\\filelist.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files\\item0006.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files\\props007.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files\\themedata.thmx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts\\jquery-1.10.2.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts\\json2.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts\\prototype.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts\\xml2array.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Scripts\\xml2json.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Title_Block.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Title_Block2.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vb.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "web.html"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}

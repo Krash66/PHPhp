@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>TomTek Development</title>
+    <link id="favicon" rel="shortcut icon" href="favicon16x16.png" type="image/x-icon" />
+    <style type="text/css">
+        body
+        {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            overflow: hidden;
+            background-color: white;
+            font-size: 250%;
+        }
+    </style>
+    <script type="text/javascript" src="./Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        var count = 6;
+        function countDown() {
+            var timer = document.getElementById("timer");
+            if (count > 0) {
+                count--;
+                timer.innerHTML = "Your screen is too small to effectively use this page.<br/> We will redirect you to our mobile friendly page.<br/> This page will redirect in " + count + " seconds.";
+                setTimeout("countDown()", 1000);
+            } else {
+                window.location.assign("http://tomtekdevhome20170507101001.azurewebsites.net");
+            }
+        }
+        function onLoadRun() {
+            if (screen.width >= 800) {
+                window.location.assign("indexhome.html");
+                window.open("http://tomtekdevhome20170507101001.azurewebsites.net");
+            }
+            else {
+                countDown();
+            }
+        }
+    </script>
+</head>
+<body onload="onLoadRun()">
+    <span id="timer">
+    </span>
+</body>
+</html>

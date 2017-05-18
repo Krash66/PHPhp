@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{1863889A-00DF-4350-BA39-669CA949CB81}") = "PHPhp", "PHPhp\PHPhp.phpproj", "{F904FB58-5629-4509-BEF5-828AC2F7A821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Local|PHP 5.6 = Local|PHP 5.6
+		Production|PHP 5.6 = Production|PHP 5.6
+		Staging|PHP 5.6 = Staging|PHP 5.6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Local|PHP 5.6.ActiveCfg = Local|PHP 5.6
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Local|PHP 5.6.Deploy.0 = Local|PHP 5.6
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Production|PHP 5.6.ActiveCfg = Production|PHP 5.6
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Production|PHP 5.6.Deploy.0 = Production|PHP 5.6
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Staging|PHP 5.6.ActiveCfg = Staging|PHP 5.6
+		{F904FB58-5629-4509-BEF5-828AC2F7A821}.Staging|PHP 5.6.Deploy.0 = Staging|PHP 5.6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

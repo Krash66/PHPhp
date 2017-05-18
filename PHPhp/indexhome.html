@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>TomTek Development</title>
+        <link id="favicon" rel="shortcut icon" href="favicon16x16.png" type="image/x-icon" />
+        <style type="text/css">
+             html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                overflow: hidden;
+                background-color: Blue;
+            }
+            labels {
+                font-size: medium;            
+        	    color: Red;
+            }
+	    </style>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+        <script type="text/javascript" src="./scripts/json2.js"></script>
+        <script type="text/javascript" src="./scripts/prototype.js"></script>
+        <script type="text/javascript" src="./scripts/xml2array.js"></script>
+        <script type="text/javascript" src="./scripts/xml2json.js"></script>
+        <!--<script type="text/javascript" src='./scripts/json2.js'></script>-->
+        <!--<link rel="stylesheet" type="text/css" href="http://www.jointjs.com/downloads/joint.css" />-->
+        <!--<script type="text/javascript" src='http://www.jointjs.com/downloads/joint.js'></script>-->
+        <!--<script type="text/javascript" src="../PHPhp/scripts/addflow/addflow-min.js"></script>-->
+        <!--<script type="text/javascript" src="../PHPhp/dhtmlxSuite/dhtmlxGrid/codebase/dhtmlxcommon_debug.js"></script> -->
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/dhtmlxcommon.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_skyblue.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxlayout.css" />
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxcontainer.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxlayout.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxTree/sources/dhtmlxtree.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_skyblue.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_blue.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_black.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_web.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_terrace.css" />
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxForm/codebase/skins/dhtmlxform_dhx_skyblue.css" />
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/dhtmlxform.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_dyn.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_item_combo.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_item_upload.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/swfobject.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxCombo/codebase/dhtmlxcombo.css" />
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxConnector/php/codebase/connector.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxCombo/codebase/dhtmlxcombo.js"></script>
+        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxCombo/codebase/ext/dhtmlxcombo_extra.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMessage/codebase/skins/dhtmlxmessage_dhx_skyblue.css" />
+        <style type="text/css">
+			.dhtmlx-error{
+				font-weight:bold;
+				color:white;
+				background-color:red;
+			}
+		</style>
+        <script type="text/javascript" src='./dhtmlxSuite/dhtmlxMessage/codebase/dhtmlxmessage.js'></script>
+        <script type="text/javascript">
+            function DownloadResume()
+            {
+                dhtmlx.message({
+                    text: "Resume download will begin shortly",
+                    expire: 5000
+                });
+//                dhtmlx.alert({
+//                    text: "Unfortunately, Web hosting company does not allow file Downloads.",
+//                    callback: function () { dhtmlx.alert("Please e-mail to request a resume. Address is in the 'About Us' section. Thank You"); }
+//                });
+
+                var filePath = './resume.doc';  
+                var iframe;
+                iframe = document.getElementById("download-container");
+                if (iframe === null)
+                {
+                    iframe = document.createElement('iframe');
+                    iframe.id = "download-container";
+                    iframe.style.visibility = 'hidden';
+                    document.body.appendChild(iframe);
+                }
+                iframe.src = './fileDwnld.php?filePath=' + filePath;
+            };
+            function goToSQDataNT() {
+                window.open("http://tomtekdev.com/SQDATA/Studio/index.htm");   
+            };
+            function goToAzureNewTab() {
+                window.open("http://tomtekdevhome20170507101001.azurewebsites.net");  
+            };
+        </script>
+    </head>
+    <body>
+    <script type="text/javascript">
+        //****************************************************************************************
+        // build Main Layout and place it in div MainContent 
+        //****************************************************************************************
+        var main_layout = new dhtmlXLayoutObject( document.body, '3T', "dhx_skyblue" );
+        main_layout.progressOn(); 
+        main_layout.setImagePath('./dhtmlxSuite/dhtmlxLayout/codebase/imgs/');
+        main_layout.cells("a").setText("TomTek Development");
+        main_layout.cells("b").setText("Main Menu");
+        main_layout.cells("c").setText("");
+        main_layout.cells("a").setHeight(130);
+        main_layout.cells("b").setWidth(300);
+        main_layout.cells("a").attachURL("Title_Block.html");
+
+        // JSON form for Main Menu
+        var menuStruct = [
+	        { type: "settings", position: "label-left", labelWidth: "auto", inputWidth: "auto" },
+	        { type: "fieldset", label: "Main Menu", inputWidth: "auto", list: [
+			        { name: "btnAbout", type: "button", value: "TomTek Home/About", width: 230, tooltip: "Tomtek Development Home/About" },
+			        { name: "btnResume", type: "button", value: "See Tom's Resume", width: 230, tooltip: "Owner Resume" },
+                    { name: "btnDnldResume", type: "button", value: "Download Tom's Resume", width: 230, tooltip: "Download in MS Word format" },
+                    { name: "btnVBdotNET", type: "button", value: "VB.NET Screenshots", width: 230, tooltip: "Screenshots of 'Design Studio'. Code and App Available on Github" },
+                    { name: "btnAddFlow", type: "button", value: "AddFlow Screenshots", width: 230, tooltip: "Screenshots of 'Design Studio' AddFlow screens. Code and App Available on Github" },
+                    { name: "btnWeb", type: "button", value: "Web Screenshots", width: 230, tooltip: "Screenshot of the Working PHP Webapplication" },
+                    { name: "btnSQData", type: "button", value: '<b style="color:blue;">Working PHP Web Application</b>', width: 230, tooltip:"Firefox not recommended" },
+                    { name: "btnSQDataNT", type: "button", value: '<b style="color:red;">Working PHP Web App New Tab</b>', width: 230, tooltip: "Firefox not recommended" },
+                    { name: "btnAzureNT", type: "button", value: '<b style="color:green;">MVC site on Azure New Tab</b>', width: 230, tooltip:".NET MVC Site Hosted on Microsoft Azure"},
+                    { type: "label", className: "labels", label: "<p>Please note the the Azure Website (button above) the new version of this website, still under construction, in the Cloud format, hosted on Microsoft Azure.</p><p>Also note that The working 'Working Web Application' (button above) is a fully functioning database application and a full live demonstration can arranged.</p><p>Cloud apps and useful APIs, authored by TomTek, available on Azure and listed on my Azure site for download and/or public use", width: 220 }
+		        ]
+            }];
+
+        // Attach JSON form to Layout control Area
+        var MainMenu = main_layout.cells("b").attachForm(menuStruct);
+        main_layout.cells("c").attachURL("AboutUs.html");
+        // Attach a Status Bar to the Main Layout
+        var mainStatus = main_layout.attachStatusBar();
+        mainStatus.setText('Official Website of TomTek Development');
+        main_layout.showStatusBar();
+
+        main_layout.progressOff();
+
+        MainMenu.attachEvent("onButtonClick", function (name) {
+            switch (name) {
+                case 'btnAbout':
+                    main_layout.cells("c").attachURL("AboutUs.html");
+                    main_layout.cells("c").setText("About Us");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    break;
+                case 'btnResume':
+                    main_layout.cells("c").attachURL("resume.htm");
+                    main_layout.cells("c").setText("Tom Karasch's Resume");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    break;
+                case 'btnDnldResume':
+                    main_layout.cells("c").attachURL("resume.htm");
+                    main_layout.cells("c").setText("Download Tom Karasch's Resume");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    DownloadResume();
+                    break;
+                case 'btnVBdotNET':
+                    main_layout.cells("c").attachURL("vb.html");
+                    main_layout.cells("c").setText("Screenshots of some of Tom's Visual Basic.NET");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    break;
+                case 'btnAddFlow':
+                    main_layout.cells("c").attachURL("adflow.html");
+                    main_layout.cells("c").setText("Screenshots of LaSalle AddFlow wire diagrams in VB.NET and JavaScript");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    break;
+                case 'btnWeb':
+                    main_layout.cells("c").attachURL("web.html");
+                    main_layout.cells("c").setText("Screenshots of some of Tom's Web Applications");
+                    main_layout.cells("a").attachURL("Title_Block.html");
+                    break;
+                case 'btnSQData':
+                    main_layout.cells("c").attachURL("http://tomtekdev.com/SQDATA/Studio/index.htm");
+                    main_layout.cells("c").setText("Working Web Application");
+                    main_layout.cells("a").attachURL("Title_Block2.html");
+                    break;
+                case 'btnSQDataNT':
+                    goToSQDataNT();
+                    break;
+                case 'btnAzureNT':
+                    goToAzureNewTab();
+                    break;
+            };
+        });
+        
+    </script>
+    </body>
+</html>
