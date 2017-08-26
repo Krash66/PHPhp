@@ -27,28 +27,18 @@
         <!--<script type="text/javascript" src='http://www.jointjs.com/downloads/joint.js'></script>-->
         <!--<script type="text/javascript" src="../PHPhp/scripts/addflow/addflow-min.js"></script>-->
         <!--<script type="text/javascript" src="../PHPhp/dhtmlxSuite/dhtmlxGrid/codebase/dhtmlxcommon_debug.js"></script> -->
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/dhtmlxcommon.js"></script>
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_skyblue.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxlayout.css" />
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxcontainer.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxLayout/codebase/dhtmlxlayout.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxTree/sources/dhtmlxtree.js"></script>
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_skyblue.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_blue.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_black.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_web.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMenu/codebase/skins/dhtmlxmenu_dhx_terrace.css" />
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxForm/codebase/skins/dhtmlxform_dhx_skyblue.css" />
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/dhtmlxform.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_dyn.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_item_combo.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/dhtmlxform_item_upload.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxForm/codebase/ext/swfobject.js"></script>
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxCombo/codebase/dhtmlxcombo.css" />
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxConnector/php/codebase/connector.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxCombo/codebase/dhtmlxcombo.js"></script>
-        <script type="text/javascript" src="./dhtmlxSuite/dhtmlxCombo/codebase/ext/dhtmlxcombo_extra.js"></script>
-        <link rel="stylesheet" type="text/css" href="./dhtmlxSuite/dhtmlxMessage/codebase/skins/dhtmlxmessage_dhx_skyblue.css" />
+         <script type="text/javascript" src="dhtmlx.js"></script>
+        <link rel="stylesheet" type="text/css" href="dhtmlx.css" />
+
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/dhtmlxlayout.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_skyblue.css" />
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_web.css" />
+      
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/skins/dhtmlxform_dhx_web.css" />
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/dhtmlxform.js"></script>
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/ext/dhtmlxform_dyn.js"></script>
+       
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/skins/dhtmlxmessage_dhx_web.css" />
         <style type="text/css">
 			.dhtmlx-error{
 				font-weight:bold;
@@ -56,7 +46,11 @@
 				background-color:red;
 			}
 		</style>
-        <script type="text/javascript" src='./dhtmlxSuite/dhtmlxMessage/codebase/dhtmlxmessage.js'></script>
+        <script type="text/javascript" src='./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/dhtmlxmessage.js'></script>
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/skins/dhtmlxToolbar_dhx_web.css" />
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/dhtmlxToolbar.js"></script>
+        
+
         <script type="text/javascript">
             function DownloadResume()
             {
@@ -69,7 +63,7 @@
 //                    callback: function () { dhtmlx.alert("Please e-mail to request a resume. Address is in the 'About Us' section. Thank You"); }
 //                });
 
-                var filePath = './resume.doc';  
+                var filePath = './resumeTomKaraschSWD.docx';  
                 var iframe;
                 iframe = document.getElementById("download-container");
                 if (iframe === null)
@@ -94,20 +88,34 @@
         //****************************************************************************************
         // build Main Layout and place it in div MainContent 
         //****************************************************************************************
-        var main_layout = new dhtmlXLayoutObject( document.body, '3T', "dhx_skyblue" );
+        var main_layout = new dhtmlXLayoutObject( document.body, '3T', "dhx_web" );
         main_layout.progressOn(); 
-        main_layout.setImagePath('./dhtmlxSuite/dhtmlxLayout/codebase/imgs/');
+//        main_layout.setImagePath('./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/imgs/');
         main_layout.cells("a").setText("TomTek Development");
         main_layout.cells("b").setText("Main Menu");
         main_layout.cells("c").setText("");
-        main_layout.cells("a").setHeight(130);
-        main_layout.cells("b").setWidth(300);
+        main_layout.cells("a").setHeight(150);
+        main_layout.cells("b").setWidth(310);
         main_layout.cells("a").attachURL("Title_Block.html");
+
+        // Attach toolbar
+//        var maintoolJSON = [
+//            {id: "item_Home", 
+//            type: "button",
+//            text: "TomTek",
+//            title: "TomTek Development Homepage"
+//            },
+//            {id: "item_b", type: "button",text: "button2"},
+//            {id: "item_c", type: "button", text: "button3"}
+//            ];
+
+//        var mainToolbar = main_layout.attachToolbar(maintoolJSON);
+//        mainToolbar.setSkin("dhx_web");
 
         // JSON form for Main Menu
         var menuStruct = [
 	        { type: "settings", position: "label-left", labelWidth: "auto", inputWidth: "auto" },
-	        { type: "fieldset", label: "Main Menu", inputWidth: "auto", list: [
+	        { type: "fieldset", label: "Main Menu", inputWidth: "290", list: [
 			        { name: "btnAbout", type: "button", value: "TomTek Home/About", width: 230, tooltip: "Tomtek Development Home/About" },
 			        { name: "btnResume", type: "button", value: "See Tom's Resume", width: 230, tooltip: "Owner Resume" },
                     { name: "btnDnldResume", type: "button", value: "Download Tom's Resume", width: 230, tooltip: "Download in MS Word format" },
@@ -121,8 +129,9 @@
 		        ]
             }];
 
-        // Attach JSON form to Layout control Area
+//        // Attach JSON form to Layout control Area
         var MainMenu = main_layout.cells("b").attachForm(menuStruct);
+        // Attach Main About page to Head
         main_layout.cells("c").attachURL("AboutUs.html");
         // Attach a Status Bar to the Main Layout
         var mainStatus = main_layout.attachStatusBar();
@@ -139,12 +148,12 @@
                     main_layout.cells("a").attachURL("Title_Block.html");
                     break;
                 case 'btnResume':
-                    main_layout.cells("c").attachURL("resume.htm");
+                    main_layout.cells("c").attachURL("resumeTomKaraschSWDF.htm");
                     main_layout.cells("c").setText("Tom Karasch's Resume");
                     main_layout.cells("a").attachURL("Title_Block.html");
                     break;
                 case 'btnDnldResume':
-                    main_layout.cells("c").attachURL("resume.htm");
+                    main_layout.cells("c").attachURL("resumeTomKaraschSWDF.htm");
                     main_layout.cells("c").setText("Download Tom Karasch's Resume");
                     main_layout.cells("a").attachURL("Title_Block.html");
                     DownloadResume();

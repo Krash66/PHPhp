@@ -26,215 +26,331 @@
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite"
+    "dHTMLx"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo"
+    "dhtmlx.css"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase"
+    "dhtmlx.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcombo.css"
+    "dHTMLx\\dhtmlSuite"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcombo.js"
+    "dHTMLx\\dhtmlSuite\\sources"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\dhtmlxcommon.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_extra.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\connector.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_group.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\dhtmlxcommon.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\ext\\dhtmlxcombo_whp.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\dhtmlxcommon_deprecated.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\dhtmlxcontainer.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\bg_selection.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\dhtmlxcore.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\blank.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxCommon\\codebase\\dhtmlxdataprocessor.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_black.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_blue.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\dhtmlxform.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_skyblue.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\dhtmlxform_deprecated.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_terrace.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dhx_web.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_backup.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_skyblue.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_dyn.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_terrace.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_btn2state.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxCombo\\codebase\\imgs\\combo_select_dis_dhx_web.gif"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_calendar.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_colorpicker.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_combo.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_container.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\form_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_editor.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\grid_config.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_image.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\grid_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhtmlxform_item_upload.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\keygrid_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\dhxupload.xap"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\options_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\swfobject.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\scheduler_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\ext\\uploader.swf"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\strategy.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\tools.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_skyblue"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\tree_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_skyblue\\dhxform_chbxrd.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treedatagroup_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_skyblue\\dhxform_image_uploading.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treedatamultitable_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_skyblue\\dhxform_upload_buttons.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegrid_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_skyblue\\dhxform_upload_uploading.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegridgroup_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_web"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegridmultitable_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_web\\dhxform_chbxrd.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treegroup_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_web\\dhxform_image_uploading.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\treemultitable_connector.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_web\\dhxform_upload_buttons.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\update.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\imgs\\dhxform_web\\dhxform_upload_uploading.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxConnector\\php\\codebase\\xss_filter.php"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\skins"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\skins\\dhtmlxform_dhx_skyblue.css"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxForm\\codebase\\skins\\dhtmlxform_dhx_web.css"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor_debug.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\dhtmlxdataprocessor_deprecated.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\dhtmlxlayout.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\live_updates.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\dhtmlxlayout_deprecated.js"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\offline.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxDataProcessor\\codebase\\proxy.js"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_skyblue"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxEditor"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_skyblue\\dhxlayout_cell_btns.gif"
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxEditor\\codebase"
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_skyblue\\dhxlayout_cell_progress.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_skyblue\\dhxlayout_sep_h.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_skyblue\\dhxlayout_sep_v.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_web"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_web\\dhxlayout_cell_btns.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_web\\dhxlayout_cell_progress.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_web\\dhxlayout_sep_h.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_web\\dhxlayout_sep_v.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\skins\\dhtmlxlayout_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxLayout\\codebase\\skins\\dhtmlxlayout_dhx_web.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage\\codebase\\dhtmlxmessage.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage\\codebase\\skins\\dhtmlxmessage_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\dhtmlxtoolbar.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\dhtmlxtoolbar_deprecated.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_skyblue"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_skyblue\\dhxtoolbar_arrow.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_skyblue\\dhxtoolbar_arrow_dis.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_web"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_web\\dhxtoolbar_arrow.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\imgs\\dhxtoolbar_web\\dhxtoolbar_arrow_dis.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\skins\\dhtmlxtoolbar_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar\\codebase\\skins\\dhtmlxtoolbar_dhx_web.css"
     {
     "ProjRelPath" = "T"
     }
@@ -247,26 +363,6 @@
     "ProjRelPath" = "T"
     }
     "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxeditor.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxForm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxForm\\codebase"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxForm\\codebase\\dhtmlxcommon.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxForm\\codebase\\dhtmlxform.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
@@ -290,43 +386,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "dhtmlxSuite\\dhtmlxForm\\codebase\\skins"
-    {
-    "ProjRelPath" = "T"
-    }
     "dhtmlxSuite\\dhtmlxForm\\codebase\\skins\\dhtmlxform_dhx_skyblue.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxcommon.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxcontainer.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayout.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayout.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\dhtmlxlayoutCompressed.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
@@ -379,22 +439,6 @@
     "ProjRelPath" = "T"
     }
     "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs\\dhxlayout_dhx_skyblue\\dhxlayout_progress_global.gif"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxMessage"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxMessage\\codebase"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxMessage\\codebase\\dhtmlxmessage.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "dhtmlxSuite\\dhtmlxMessage\\codebase\\skins"
     {
     "ProjRelPath" = "T"
     }
@@ -506,26 +550,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "resume.doc"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resume.htm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resume_files"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resume_files\\colorschememapping.xml"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resume_files\\filelist.xml"
-    {
-    "ProjRelPath" = "T"
-    }
     "resume_files\\item0006.xml"
     {
     "ProjRelPath" = "T"
@@ -534,7 +558,19 @@
     {
     "ProjRelPath" = "T"
     }
-    "resume_files\\themedata.thmx"
+    "resumeTomKaraschSWD.docx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resumeTomKaraschSWDF.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resumeTomKaraschSWDF_files"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resumeTomKaraschSWDF_files\\editdata.mso"
     {
     "ProjRelPath" = "T"
     }
