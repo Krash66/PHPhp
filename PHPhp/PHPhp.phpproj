@@ -298,6 +298,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "dHTMLx\\dhtmlSuite\\sources\\dhtmlxMessage\\codebase\\skins\\dhtmlxmessage_dhx_web.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "dHTMLx\\dhtmlSuite\\sources\\dhtmlxToolbar"
     {
     "ProjRelPath" = "T"

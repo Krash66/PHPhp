@@ -30,15 +30,17 @@
          <script type="text/javascript" src="dhtmlx.js"></script>
         <link rel="stylesheet" type="text/css" href="dhtmlx.css" />
 
-        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/dhtmlxlayout.js"></script>
         <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_skyblue.css" />
         <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/skins/dhtmlxlayout_dhx_web.css" />
-      
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/dhtmlxlayout.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/skins/dhtmlxform_dhx_skyblue.css" />
         <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/skins/dhtmlxform_dhx_web.css" />
         <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/dhtmlxform.js"></script>
         <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxForm/codebase/ext/dhtmlxform_dyn.js"></script>
        
         <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/skins/dhtmlxmessage_dhx_web.css" />
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/skins/dhtmlxmessage_dhx_skyblue.css" />
         <style type="text/css">
 			.dhtmlx-error{
 				font-weight:bold;
@@ -48,10 +50,10 @@
 		</style>
         <script type="text/javascript" src='./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/dhtmlxmessage.js'></script>
         
-        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/skins/dhtmlxToolbar_dhx_web.css" />
-        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/dhtmlxToolbar.js"></script>
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/skins/dhtmlxtoolbar_dhx_skyblue.css" />
+        <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/skins/dhtmlxtoolbar_dhx_web.css" />
+        <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/dhtmlxtoolbar.js"></script>
         
-
         <script type="text/javascript">
             function DownloadResume()
             {
@@ -89,7 +91,7 @@
         //****************************************************************************************
         // build Main Layout and place it in div MainContent 
         //****************************************************************************************
-        var main_layout = new dhtmlXLayoutObject( document.body, '3T', "dhx_web" );
+        var main_layout = new dhtmlXLayoutObject(document.body, '3T', "dhx_web");   //dhx_skyblue
         main_layout.progressOn(); 
 //        main_layout.setImagePath('./dHTMLx/dhtmlSuite/sources/dhtmlxLayout/codebase/imgs/');
         main_layout.cells("a").setText("TomTek Development");
@@ -102,15 +104,10 @@
         // Attach toolbar
 //        var maintoolJSON = [
 //            {
-//            id:"info",                 
-//            type:"text",                 
-//            text:"dhtmlxToolbar Demo",     
-//            title: "Tooltip here",        
-//            hidden: false,                
-//            userdata: {                  
-//                p1: "value1",            
-//                p2: "value2"
-//                }
+//            id:"info",
+//            type:"text",
+//            text:"dhtmlxToolbar Demo",
+//            title: "Tooltip here"
 //            },
 //            {id: "item_Home", 
 //            type: "button",
@@ -122,13 +119,11 @@
 //            ];
 
 //        var mainToolbar = main_layout.attachToolbar(maintoolJSON);
-//        mainToolbar.setSkin("dhx_web");
-
 
         // JSON form for Main Menu
         var menuStruct = [
 	        { type: "settings", position: "label-left", labelWidth: "auto", inputWidth: "auto" },
-	        { type: "fieldset", label: "", inputWidth: "285", list: [
+	        { type: "fieldset", label: "", inputWidth: "275", list: [
 			        { name: "btnAbout", type: "button", value: "TomTek Home/About", width: 230, tooltip: "Tomtek Development Home/About" },
 			        { name: "btnResume", type: "button", value: "See Tom's Resume", width: 230, tooltip: "Owner Resume" },
                     { name: "btnDnldResume", type: "button", value: "Download Tom's Resume", width: 230, tooltip: "Download in MS Word format" },
