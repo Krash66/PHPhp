@@ -354,6 +354,18 @@
     {
     "ProjRelPath" = "T"
     }
+    "dhtmlxSuite"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxEditor\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
     "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxcommon.js"
     {
     "ProjRelPath" = "T"
@@ -363,6 +375,18 @@
     "ProjRelPath" = "T"
     }
     "dhtmlxSuite\\dhtmlxEditor\\codebase\\dhtmlxeditor.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
@@ -386,7 +410,23 @@
     {
     "ProjRelPath" = "T"
     }
+    "dhtmlxSuite\\dhtmlxForm\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
     "dhtmlxSuite\\dhtmlxForm\\codebase\\skins\\dhtmlxform_dhx_skyblue.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxLayout\\codebase\\imgs"
     {
     "ProjRelPath" = "T"
     }
@@ -442,6 +482,18 @@
     {
     "ProjRelPath" = "T"
     }
+    "dhtmlxSuite\\dhtmlxMessage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dhtmlxSuite\\dhtmlxMessage\\codebase\\skins"
+    {
+    "ProjRelPath" = "T"
+    }
     "dhtmlxSuite\\dhtmlxMessage\\codebase\\skins\\dhtmlxmessage_dhx_skyblue.css"
     {
     "ProjRelPath" = "T"
@@ -463,6 +515,10 @@
     "ProjRelPath" = "T"
     }
     "img"
+    {
+    "ProjRelPath" = "T"
+    }
+    "img\\DSCF0036.JPG"
     {
     "ProjRelPath" = "T"
     }
@@ -547,6 +603,14 @@
     "ProjRelPath" = "T"
     }
     "reg.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resume_files"
     {
     "ProjRelPath" = "T"
     }

@@ -10,7 +10,7 @@
                 height: 100%;
                 margin: 0px;
                 overflow: hidden;
-                background-color: Blue;
+                background-color: Gray;
             }
             labels {
                 font-size: medium;            
@@ -47,6 +47,7 @@
 			}
 		</style>
         <script type="text/javascript" src='./dHTMLx/dhtmlSuite/sources/dhtmlxMessage/codebase/dhtmlxmessage.js'></script>
+        
         <link rel="stylesheet" type="text/css" href="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/skins/dhtmlxToolbar_dhx_web.css" />
         <script type="text/javascript" src="./dHTMLx/dhtmlSuite/sources/dhtmlxToolbar/codebase/dhtmlxToolbar.js"></script>
         
@@ -83,7 +84,7 @@
             };
         </script>
     </head>
-    <body>
+    <body style="background-image: url('./img/DSCF0036.JPG');">
     <script type="text/javascript">
         //****************************************************************************************
         // build Main Layout and place it in div MainContent 
@@ -94,12 +95,23 @@
         main_layout.cells("a").setText("TomTek Development");
         main_layout.cells("b").setText("Main Menu");
         main_layout.cells("c").setText("");
-        main_layout.cells("a").setHeight(150);
+        main_layout.cells("a").setHeight(160);
         main_layout.cells("b").setWidth(310);
         main_layout.cells("a").attachURL("Title_Block.html");
 
         // Attach toolbar
 //        var maintoolJSON = [
+//            {
+//            id:"info",                 
+//            type:"text",                 
+//            text:"dhtmlxToolbar Demo",     
+//            title: "Tooltip here",        
+//            hidden: false,                
+//            userdata: {                  
+//                p1: "value1",            
+//                p2: "value2"
+//                }
+//            },
 //            {id: "item_Home", 
 //            type: "button",
 //            text: "TomTek",
@@ -112,19 +124,20 @@
 //        var mainToolbar = main_layout.attachToolbar(maintoolJSON);
 //        mainToolbar.setSkin("dhx_web");
 
+
         // JSON form for Main Menu
         var menuStruct = [
 	        { type: "settings", position: "label-left", labelWidth: "auto", inputWidth: "auto" },
-	        { type: "fieldset", label: "Main Menu", inputWidth: "290", list: [
+	        { type: "fieldset", label: "", inputWidth: "285", list: [
 			        { name: "btnAbout", type: "button", value: "TomTek Home/About", width: 230, tooltip: "Tomtek Development Home/About" },
 			        { name: "btnResume", type: "button", value: "See Tom's Resume", width: 230, tooltip: "Owner Resume" },
                     { name: "btnDnldResume", type: "button", value: "Download Tom's Resume", width: 230, tooltip: "Download in MS Word format" },
                     { name: "btnVBdotNET", type: "button", value: "VB.NET Screenshots", width: 230, tooltip: "Screenshots of 'Design Studio'. Code and App Available on Github" },
                     { name: "btnAddFlow", type: "button", value: "AddFlow Screenshots", width: 230, tooltip: "Screenshots of 'Design Studio' AddFlow screens. Code and App Available on Github" },
                     { name: "btnWeb", type: "button", value: "Web Screenshots", width: 230, tooltip: "Screenshot of the Working PHP Webapplication" },
-                    { name: "btnSQData", type: "button", value: '<b style="color:blue;">Working PHP Web Application</b>', width: 230, tooltip:"Firefox not recommended" },
-                    { name: "btnSQDataNT", type: "button", value: '<b style="color:red;">Working PHP Web App New Tab</b>', width: 230, tooltip: "Firefox not recommended" },
-                    { name: "btnAzureNT", type: "button", value: '<b style="color:green;">MVC site on Azure New Tab</b>', width: 230, tooltip:".NET MVC Site Hosted on Microsoft Azure"},
+                    { name: "btnSQData", type: "button", value: '<b >Working PHP Web Application</b>', width: 230, tooltip:"Firefox not recommended" },
+                    { name: "btnSQDataNT", type: "button", value: '<b >Working PHP Web App New Tab</b>', width: 230, tooltip: "Firefox not recommended" },
+                    { name: "btnAzureNT", type: "button", value: '<b >MVC site on Azure New Tab</b>', width: 230, tooltip:".NET MVC Site Hosted on Microsoft Azure"},
                     { type: "label", className: "labels", label: "<p>Please note the the Azure Website (button above) the new version of this website, still under construction, in the Cloud format, hosted on Microsoft Azure.</p><p>Also note that The working 'Working Web Application' (button above) is a fully functioning database application and a full live demonstration can arranged.</p><p>Cloud apps and useful APIs, authored by TomTek, available on Azure and listed on my Azure site for download and/or public use", width: 220 }
 		        ]
             }];
@@ -148,12 +161,12 @@
                     main_layout.cells("a").attachURL("Title_Block.html");
                     break;
                 case 'btnResume':
-                    main_layout.cells("c").attachURL("resumeTomKaraschSWDF.htm");
+                    main_layout.cells("c").attachURL("resume.html");
                     main_layout.cells("c").setText("Tom Karasch's Resume");
                     main_layout.cells("a").attachURL("Title_Block.html");
                     break;
                 case 'btnDnldResume':
-                    main_layout.cells("c").attachURL("resumeTomKaraschSWDF.htm");
+                    main_layout.cells("c").attachURL("resume.html");
                     main_layout.cells("c").setText("Download Tom Karasch's Resume");
                     main_layout.cells("a").attachURL("Title_Block.html");
                     DownloadResume();
